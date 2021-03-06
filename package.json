@@ -1,0 +1,20 @@
+{
+  "name": "sketchql",
+  "version": "0.0.1",
+  "description": "Parses sketch file and simplifies symbols data for DOMQL usage",
+  "main": "src/index.js",
+  "repository": "git@github.com:rackai/sketchql.git",
+  "author": "rackai",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "node-sketch": "^0.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "standard": "^16.0.3"
+  }
+}
